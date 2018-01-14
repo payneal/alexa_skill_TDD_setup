@@ -1,0 +1,20 @@
+{
+  "name": "tdd_alexa_skill",
+  "version": "1.0.0",
+  "description": "\"alexa skill tdd example\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha"
+  },
+  "author": "Ali Payne",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.24"
+  },
+  "devDependencies": {
+    "alexa-skill-test-framework": "^1.1.3",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "nodemon": "^1.14.6"
+  }
+}
